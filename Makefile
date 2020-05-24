@@ -29,7 +29,7 @@ lint:
 	# This is linter for Dockerfiles
 	# To download and install adolint
 	wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
-    sudo chmod +x /bin/hadolint
+    chmod +x /bin/hadolint
 	hadolint Dockerfile
 	# This is a linter for Python source code linter: https://www.pylint.org/
 	# This should be run from inside a virtualenv
